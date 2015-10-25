@@ -23,7 +23,7 @@ public class ComparatorLambda {
 		s.add("YYY");
 		
 		System.out.println(s);
-
+        System.out.println("**********************");
 		
 		Set<String> s1 = new TreeSet<String>((o1, o2) -> {
 				return o1.compareToIgnoreCase(o2);
